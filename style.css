@@ -296,6 +296,7 @@ header nav {
     margin-right: auto;
     margin-left: auto;
     border-radius: 12px;
+    margin-bottom: 120px;
 }
 
 .access .heading {
@@ -320,4 +321,71 @@ header nav {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+
+/* Footer Section */
+footer {
+    padding-top: 120px;
+    background-color: #001931;
+}
+
+footer .top {
+    max-width: 1360px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .top .socials {
+    color: white;
+}
+
+footer .top .socials p {
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+footer .top .socials .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer .top .socials .social-icons a {
+    background-color: #fff;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    text-decoration: none;
+}
+
+footer .top .socials .social-icons a:hover{
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+}
+
+footer .bottom {
+    max-width: 1360px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #424242;
+}
+
+footer .bottom p {
+    line-height: 24px;
+    color: #fafafa;
+    font-weight: 400;
+    padding: 30px 0;
 }
