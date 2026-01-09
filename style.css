@@ -76,7 +76,10 @@ header nav {
     transition: all .3s ease-in-out;
 }
 
-/* Main section design  */
+/*====Main section design====*/
+
+
+/* Hero Section */
 
 .hero {
     background: url(./assets/hero-bg.png);
@@ -88,12 +91,12 @@ header nav {
     
 }
 
-.section-message {
+.hero .section-message {
     display: inline-block;
 
 }
 
-.message-inner{
+.hero .section-message .message-inner{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -105,13 +108,13 @@ header nav {
     
 }
 
-.message-inner h6 {
+.hero .section-message .message-inner h6 {
     font-size: 1rem;
     font-weight: 500;
     color: #30B868;
 }
 
-.section-heading h1{
+.hero .section-heading h1{
     font-size: 72px;
     line-height: 80px;
     color: white;
@@ -119,12 +122,12 @@ header nav {
     margin-bottom: 1rem;
 }
 
-.section-heading h1 span {
+.hero .section-heading h1 span {
     display: inline-block;
     color: #30B868;
 }
 
-.short-description {
+.hero .short-description {
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -162,4 +165,64 @@ header nav {
     border: 1px solid rgb(110, 110, 110) !important;
     transform: scale(1.05);
     transition: all .4s ease-in-out;
+}
+
+
+/* Notes Section */
+.notes {
+    padding-top: 70px;
+    max-width: 1360px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.notes .heading h2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.notes .heading p {
+    color: #627382;
+    margin-top: 1rem;
+}
+
+.cards {
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.cards .card {
+    /* border: 1px solid red; */
+    padding: 70px 24px;
+    box-shadow: 0 0 8px 0 #00000027;
+}
+
+.cards .card .icon {
+    background-color: #F95555;
+    display: inline-block;
+    place-content: center;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-bottom: 16px;
+}
+
+.cards .card .icon img {
+    height: 32px;
+    width: 32px;
+}
+
+.cards .card h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 1rem;
+}
+
+.cards .card p {
+    line-height: 20px;
+    color: #627382;
 }
