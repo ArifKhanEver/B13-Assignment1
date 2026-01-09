@@ -123,7 +123,7 @@ header nav {
 }
 
 .hero .section-heading h1 span {
-    display: inline-block;
+    display: block;
     color: #30B868;
 }
 
@@ -283,4 +283,36 @@ header nav {
     margin-right: 6px;
     width: 20px;
     height: 20px;
+}
+
+
+/* Access Section */
+.access {
+    background-color: #F7F6F2;
+    margin-top: 120px;
+    padding: 80px 0;
+}
+
+.access .heading {
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 1rem;
+}
+
+.access p {
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+
+.access .btn {
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.access .btn button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
