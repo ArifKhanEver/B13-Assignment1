@@ -13,6 +13,14 @@ body {
     font-size: 1rem;
 }
 
+/* Header section design */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 11;
+    background-color: white;
+}
+
 header nav {
     max-width: 1360px;
     width: 85%;
@@ -59,10 +67,99 @@ header nav {
     border: none;
     border-radius: 4px;
     font-size: 1rem;
+    font-weight: 600;
     cursor: pointer;
 }
 
 .btn button:hover {
     background-color: #63cc8f;
     transition: all .3s ease-in-out;
+}
+
+/* Main section design  */
+
+.hero {
+    background: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* height: 674px; */
+    padding: 115px 0 180px;
+    
+}
+
+.section-message {
+    display: inline-block;
+
+}
+
+.message-inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    border-radius: 40px;
+    background-color: white;
+    
+}
+
+.message-inner h6 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #30B868;
+}
+
+.section-heading h1{
+    font-size: 72px;
+    line-height: 80px;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section-heading h1 span {
+    display: inline-block;
+    color: #30B868;
+}
+
+.short-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 1rem;
+}
+
+.btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 1rem;
+    background-color: transparent !important;
+    border: 1px solid #fff !important;
+}
+
+.btn2:hover {
+    /* background-color: white !important;
+    color: black; */
+    border: 1px solid rgb(110, 110, 110) !important;
+    transform: scale(1.05);
+    transition: all .4s ease-in-out;
 }
